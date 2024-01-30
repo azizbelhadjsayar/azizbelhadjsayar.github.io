@@ -1461,9 +1461,17 @@ main section h1 {
     #S6 .container .contenu .university .col2 {
       width: 100%;
     }
+
+    #S3 {
+      min-height: 10px;
+    }
   }
 
   @media screen and (max-height:750px) and (max-width:500px) {
+    #S3 {
+      min-height: 10px;
+    }
+    
     #S1 h2 {
       font-size: 28px;
     }
