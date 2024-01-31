@@ -103,17 +103,15 @@ function isElementVisible(element) {
     ];
     
     const imagesp3 = [
-      ['images/project1-1.png',2500],
-      ['images/project1-2.png',2500],
-      ['images/project1-3.png',2500],
-      ['images/project1-4.png',2500]
+      ['images/project3-1.gif',89000]
     ];
 
     const imagesp4 = [
-      ['images/project1-1.png',2500],
-      ['images/project1-2.png',2500],
-      ['images/project1-3.png',2500],
-      ['images/project1-4.png',2500]
+      ['images/project4-1.gif',85000]
+    ];
+
+    const imagesp5 = [
+      ['images/project5-1.gif',23000]
     ];
 
     var images="";
@@ -122,6 +120,7 @@ function isElementVisible(element) {
     else if(id=="p2images") images=imagesp2
     else if(id=="p3images") images=imagesp3
     else if(id=="p4images") images=imagesp4
+    else if(id=="p5images") images=imagesp5
   
     const imageContainer = document.getElementById(id);
     let currentIndex = 0;
@@ -151,6 +150,10 @@ function isElementVisible(element) {
   // Call the function to start the infinite loop with fade effect
   changeBackgroundWithFade("p1images");
   changeBackgroundWithFade("p2images");
+  changeBackgroundWithFade("p3images");
+  changeBackgroundWithFade("p4images");
+  changeBackgroundWithFade("p5images");
+
 
 
   // function hidelink(elt) {
