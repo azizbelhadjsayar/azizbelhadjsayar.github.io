@@ -8,6 +8,9 @@
     <title>Aziz's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- AOS SCROLL ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS SCROLL ANIMATION -->
 </head>
 <body>
     <div class="mobilebanner" id="banner">
@@ -118,13 +121,13 @@
             <h3 id="typing">A <span></span></h3>
             <p>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</p>
             <div class="socials">
-                <a href="https://www.linkedin.com/in/azizbelhadjsayar/" target="_blank"><div class="linkedin"><i class="fa-brands fa-linkedin-in"></i></div></a>
-                <a href="https://github.com/azizbelhadjsayar" target="_blank"><div class="github"><i class="fa-brands fa-github"></i></div></a>
-                <a href="mailto:aziz.belhadjsayar.1@gmail.com" target="_blank"><div class="gmail"><i class="fa-brands fa-google"></i></div></a>
+                <a data-aos="zoom-out-down" href="https://www.linkedin.com/in/azizbelhadjsayar/" target="_blank"><div class="linkedin"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                <a data-aos="zoom-out-down" href="https://github.com/azizbelhadjsayar" target="_blank"><div class="github"><i class="fa-brands fa-github"></i></div></a>
+                <a data-aos="zoom-out-down" href="mailto:aziz.belhadjsayar.1@gmail.com" target="_blank"><div class="gmail"><i class="fa-brands fa-google"></i></div></a>
             </div>
             <div class="buttons">
-                <a href="#S2"><button class="button">Read more</button></a>
-                <a href="#S7"><button class="button contactButton">Contact me</button></a>
+                <a href="#S2" data-aos="zoom-in"><button class="button">Read more</button></a>
+                <a href="#S7" data-aos="zoom-in"><button class="button contactButton">Contact me</button></a>
             </div>
         </section>
 
@@ -148,7 +151,7 @@
         <section id="S3">
             <h1><span>Experience</span></h1>
             <div class="experiences">
-                <div class="experienceContainer">
+                <div class="experienceContainer" data-aos="fade-up">
                     <div class="experienceHeader">
                         <div class="logo"></div>
                         <div class="role">Summer Intern</div>
@@ -172,7 +175,7 @@
         <section id="S4">
             <h1><span>Projects</span></h1>
             <div class="projectsContainer">
-                <article class="projects" id="project1">
+                <article class="projects" id="project1" data-aos="zoom-in">
                     <div class="image" id="p1images"></div>
                     <div class="title">
                         <h2>Chkobba<span style="cursor: pointer;" onclick="afficherDescription(this.parentNode.parentNode.parentNode)"><i class="fa-solid fa-ellipsis-vertical fa-beat-fade"></i></span></h2>
@@ -196,7 +199,7 @@
                     </div>
                 </article>
 
-                <article class="projects" id="project2">
+                <article class="projects" id="project2" data-aos="zoom-in">
                     <div class="image" id="p2images"></div>
                     <div class="title">
                         <h2>Map of Tunisia<span onclick="afficherDescription(this.parentNode.parentNode.parentNode)"><i class="fa-solid fa-ellipsis-vertical fa-beat-fade"></i></span></h2>
@@ -221,7 +224,7 @@
                     </div>
                 </article>
 
-                <article class="projects" id="project3">
+                <article class="projects" id="project3" data-aos="zoom-in">
                     <div class="image" id="p3images"></div>
                     <div class="title">
                         <h2 style="font-size: 30px;">WINDOWS FORMS APPLICATION FOR DENTAL OFFICE MANAGEMENT<span style="cursor: pointer;" onclick="afficherDescription(this.parentNode.parentNode.parentNode)"><i class="fa-solid fa-ellipsis-vertical fa-beat-fade"></i></span></h2>
@@ -247,7 +250,7 @@
                     </div>
                 </article>
 
-                <article class="projects" id="project4">
+                <article class="projects" id="project4" data-aos="zoom-in">
                     <div class="image" id="p4images"></div>
                     <div class="title">
                         <h2 style="font-size: 30px;">WINDOWS FORMS APPLICATION FOR HUMAN RESOURCE MANAGEMENT<span style="cursor: pointer;" onclick="afficherDescription(this.parentNode.parentNode.parentNode)"><i class="fa-solid fa-ellipsis-vertical fa-beat-fade"></i></span></h2>
@@ -270,7 +273,7 @@
                     </div>
                 </article>
 
-                <article class="projects" id="project5">
+                <article class="projects" id="project5" data-aos="zoom-in">
                     <div class="image" id="p5images"></div>
                     <div class="title">
                         <h2>SNAKE GAME<span style="cursor: pointer;" onclick="afficherDescription(this.parentNode.parentNode.parentNode)"><i class="fa-solid fa-ellipsis-vertical fa-beat-fade"></i></span></h2>
@@ -296,7 +299,7 @@
 
         <section id="S5">
             <h1><span>Skills</span></h1>
-            <div class="container" id="languages">
+            <div class="container" id="languages" data-aos="fade-right">
                 <h2 id="titre">Languages and Databases</h2>
                 <div class="icons">
                     <div class="element"><img src="images/skills/python.png"><p>Python</p></div>
@@ -311,7 +314,7 @@
                 </div>
             </div>
 
-            <div class="container" id="frameworks">
+            <div class="container" id="frameworks" data-aos="fade-left">
                 <h2 id="titre">Frameworks</h2>
                 <div class="icons">
                     <div class="element"><img src="images/skills/bootstrap.png"><p>Bootstrap</p></div>
@@ -319,7 +322,7 @@
                     <div class="element"><img src="images/skills/sk-learn.png"><p>scikit-learn</p></div>
                 </div>
             </div>
-            <div class="container" id="tools">
+            <div class="container" id="tools" data-aos="fade-right">
                 <h2 id="titre">Tools</h2>
                 <div class="icons">
                     <div class="element"><img src="images/skills/jupyter.png"><p>Jupyter</p></div>
@@ -328,7 +331,7 @@
                 </div>
             </div>
 
-            <div class="container" id="ecommerce">
+            <div class="container" id="ecommerce" data-aos="fade-left">
                 <h2 id="titre">E-Commerce</h2>
                 <div class="icons">
                     <div class="element"><img src="images/skills/prestashop.png"><p>PrestaShop</p></div>
@@ -341,7 +344,7 @@
 
         <section id="S6">
             <h1><span>Education</span></h1>
-            <div class="container" id="education">
+            <div class="container" id="education" data-aos="fade-up">
                 <h2 id="titre">EDUCATION</h2>
                 <div class="contenu">
                     <div class="university">
@@ -371,10 +374,10 @@
                 </div>
             </div>
 
-            <div class="container" id="certifications">
+            <div class="container" id="certifications" data-aos="fade-up">
                 <h2 id="titre">ONLINE CERTIFICATIONS</h2>
                 <div class="contenu">
-                    <div class="certif freecodecamp-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif freecodecamp-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Responsive Web Design</p>
                             <a href="https://www.freecodecamp.org/certification/AzizBelhadjSayar/responsive-web-design" target="_blank">
@@ -383,7 +386,7 @@
                         </div>
                     </div>
 
-                    <div class="certif meta-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif meta-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">HTML and CSS in depth</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/8LM69AB4FRWU" target="_blank">
@@ -392,7 +395,7 @@
                         </div>
                     </div>
 
-                    <div class="certif hopkins-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif hopkins-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">HTML, CSS, and Javascript for Web Developers</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/YF9LSEERL9C9" target="_blank">
@@ -401,7 +404,7 @@
                         </div>
                     </div>
 
-                    <div class="certif ibm-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif ibm-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Introduction to Artificial Intelligence</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/JCRGE5ZBBLZT" target="_blank">
@@ -410,7 +413,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif"  onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif"  onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Python for Everybody Specialization</p>
                             <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/HP62NRPUS4KN" target="_blank">
@@ -419,7 +422,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Programming for Everybody (Getting Started with Python)</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/JF2V33BBZ79Q" target="_blank">
@@ -428,7 +431,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Python Data Structures</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/SYKY449VQ4QV" target="_blank">
@@ -437,7 +440,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Using Databases with Python</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/RZXY72DU2K5E" target="_blank">
@@ -446,7 +449,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Using Python to Access Web Data</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/6KZBRE6UE7L6" target="_blank">
@@ -455,7 +458,7 @@
                         </div>
                     </div>
 
-                    <div class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif michigan-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Retrieving, Processing, and Visualizing Data with Python</p>
                             <a href="https://www.coursera.org/account/accomplishments/certificate/ZLPPE2SPLB56" target="_blank">
@@ -466,7 +469,7 @@
 
 
 
-                    <div class="certif stanford-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
+                    <div data-aos="flip-down" class="certif stanford-certif" onmouseover="displayCertif(this.children[0])" onmouseout="hideCertif(this.children[0])">
                         <div class="link">
                             <p class="nomcertif">Machine Learning Specialization</p>
                             <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/7SKBCLWCU6HL" target="_blank">
@@ -564,5 +567,11 @@
             },2500)
         })
     </script>
+    <!-- AOS SCROLL ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS SCROLL ANIMATION -->
 </body>
 </html>
