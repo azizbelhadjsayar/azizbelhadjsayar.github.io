@@ -96,7 +96,7 @@ function isElementVisible(element) {
     ];
 
     const imagesp2 = [
-      ['images/project2-1.gif',7000],
+      //['images/project2-1.gif',7000],
       ['images/project2-2.png',2500]/*,
       ['images/project2-3.gif',6000],
       ['images/project2-4.gif',4000]*/
