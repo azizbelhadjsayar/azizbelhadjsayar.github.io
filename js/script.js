@@ -88,18 +88,18 @@ function isElementVisible(element) {
 
   function changeBackgroundWithFade(id) {
     const imagesp1 = [
-      ['images/project1-1.png',2500],
-      ['images/project1-2.png',2500],
-      ['images/project1-3.png',2500],
-      ['images/project1-4.png',2500]/*,
-      ['images/project1-5.gif',19000]*/
+      // ['images/project1-1.png',2500],
+      // ['images/project1-2.png',2500],
+      // ['images/project1-3.png',2500],
+      // ['images/project1-4.png',2500],
+      ['images/project1-5.gif',19000]
     ];
 
     const imagesp2 = [
-      //['images/project2-1.gif',7000],
-      ['images/project2-2.png',2500]/*,
+      ['images/project2-1.gif',7000],
+      // ['images/project2-2.png',2500],
       ['images/project2-3.gif',6000],
-      ['images/project2-4.gif',4000]*/
+      ['images/project2-4.gif',4000]
     ];
     
     const imagesp3 = [
