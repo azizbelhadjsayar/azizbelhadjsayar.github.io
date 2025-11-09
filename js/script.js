@@ -31,7 +31,7 @@ function isElementVisible(element) {
 
 
 
-  let words = [" Developer", "Business Intelligence Student", "Fast Learner"];
+  let words = [" Developer", "Software Engineering Student", "Fast Learner"];
   let tm = 100;
   let index = 0;
   
@@ -188,3 +188,4 @@ function isElementVisible(element) {
   function hideCertif(elt) {
     elt.style.transform="";
   }
+
